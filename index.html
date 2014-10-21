@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="mySheet.css" rel="stylesheet" media = "screen">
-	
+	  <link href="mySheet.css" rel="stylesheet" media = "screen">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/guess.js"></script>
+
+
   </head>
   <body>
 	<div class = "container" align = "center">
@@ -22,8 +25,8 @@
 			</div>
 			<div>
 				<form class="navbar-form" id="biggerInput" >
-					<input type="text" class="span3" placeholder = "Enter a Number 1-100">
-					<button type="submit" class=".btn-large">Submit</button>
+					<input type="text" class="span3" id="guessInput" placeholder = "Enter a Number 1-100">
+					<button type="submit" class=".btn-large" id ="theButton">Submit</button>
 				</form>
 				<p></p>
 			</div>
@@ -31,17 +34,12 @@
 				<button class="btn btn-large">Play Again</button>
 				<button class="btn btn-large">Give Me a Hint</button>
 			</div>
-			<div>
-				<h2 id = "hot">You're Hot!</h2>
-				<h2 id = "veryHot">You're Super Hot!</h2>
-				<h2 id = "cold">You're Cold!</h2>
-				<h2 id = "veryCold">You're Super Cold!</h2>
-		</div>
+
 		<footer>
 			<p>Andrew Miller 2014</p>
 		</footer>
 	</div>
-	
+
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
